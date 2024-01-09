@@ -12,8 +12,8 @@ function NextProject() {
                 <div className="caption ontop valign">
                   <div className="o-hidden full-width">
                     <h1>
-                      <a href="#0">
-                        <div className="stroke">Natural plus modern.</div>
+                      <a href="/works">
+                        <div className="stroke">Our Portfolio.</div>
                       </a>
                     </h1>
                   </div>
@@ -21,8 +21,8 @@ function NextProject() {
                 <div className="copy-cap valign">
                   <div className="cap full-width">
                     <h1>
-                      <a href="#0">
-                        <span>Natural plus modern.</span>
+                      <a href="/works">
+                        <span>Our Portfolio.</span>
                       </a>
                     </h1>
                   </div>

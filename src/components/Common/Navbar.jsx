@@ -12,15 +12,12 @@ const Navbar = ({ lr, theme }) => {
   const navbar = useRef();
 
   function handleScroll() {
-    try{
     if (window.scrollY > 300) {
       navbar.current.classList.add("nav-scroll");
     } else {
       navbar.current.classList.remove("nav-scroll");
     }
-  }catch(e){
-    ;
-  }
+    
   }
 
   useEffect(() => {

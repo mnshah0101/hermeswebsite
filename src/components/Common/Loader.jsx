@@ -1,14 +1,25 @@
-'use client';
-import { useEffect } from 'react';
+'use client'
+import { useEffect, useState } from 'react';
 import loadingPace from "@/common/loadingPace";
 import '@/styles/loading.css';
 
 function LoadingScreen() {
+  const [isTimeOver, setIsTimeOver] = useState(false);
+
   useEffect(() => {
-    setTimeout(() => {
+    setIsTimeOver(false); // Initialize state here
+
+    const timer = setTimeout(() => {
       if (typeof Pace !== 'undefined') loadingPace();
-    }, 1000);
-  });
+      setIsTimeOver(true);
+    }, 3000);
+
+    // Clear timeout if the component is unmounted
+    return () => clearTimeout(timer);
+  }, []);
+
+  // Skip rendering the loader if time is not over yet
+  if (isTimeOver) return null;
 
   return (
     <div className="hideX">

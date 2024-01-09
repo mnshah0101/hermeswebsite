@@ -1,11 +1,5 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -17,23 +11,23 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(dark)/layout.js"
     ],
-    "/(dark)/about/page": [
+    "/(dark)/project-details/counsia/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/(dark)/about/page.css",
-      "static/chunks/app/(dark)/about/page.js"
-    ],
-    "/(dark)/contact/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(dark)/contact/page.css",
-      "static/chunks/app/(dark)/contact/page.js"
+      "static/css/app/(dark)/project-details/counsia/page.css",
+      "static/chunks/app/(dark)/project-details/counsia/page.js"
     ],
     "/(dark)/works/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/(dark)/works/page.css",
       "static/chunks/app/(dark)/works/page.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ]
   }
 }
