@@ -1,6 +1,5 @@
 import React from 'react';
 //= Page components
-import Loading from '@/components/Common/Loader';
 import Navbar from '@/components/Common/Navbar';
 import PagesHeader from '@/components/Headers/PagesHeader';
 import AboutIntro from '@/components/AboutUs/AboutIntro';
@@ -18,7 +17,6 @@ export const metadata = {
 function AboutDark() {
   return (
     <>
-      <Loading />
       <Navbar />
       <PagesHeader imageLink="/img/slid/about.jpg">Our dedicated team of developers is bursting with talent, experience and passion for what we do.</PagesHeader>
       <AboutIntro />

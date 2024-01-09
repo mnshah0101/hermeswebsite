@@ -6,6 +6,9 @@ import tooltipEffect from "@/common/tooltipEffect";
 //= Static Data
 import teamsDate from "@/data/sections/team.json";
 
+//= Styles
+import "@/styles/team.css";
+
 const Team = () => {
   useEffect(() => {
     teamSkillsProgress();
@@ -55,8 +58,18 @@ const Team = () => {
                           className={`img sizxl ${index + 1 != teamsDate.teams.slice(0, 2).length ? "mb-30" : null}`}
                           data-tooltip-tit={team.title}
                           data-tooltip-sub={team.sub}
+
+      
                         >
-                          <img src={team.image} alt="" className="imago wow" />
+
+                          <div className="image-container">
+                          <img src={team.image} alt="" className="imago wow " />
+                          <div className="text-overlay ">
+                            <div className="team-title">{team.title}</div>
+                              <div className="team-sub">{team.sub}</div>
+
+                            </div>
+                          </div>
                         </div>
                       </div>
                     ))}
@@ -71,9 +84,15 @@ const Team = () => {
                           data-tooltip-tit={team.title}
                           data-tooltip-sub={team.sub}
                         >
-                          <img src={team.image} alt="" className="imago wow" />
-                        </div>
-                      </div>
+ <div className="image-container">
+                          <img src={team.image} alt="" className="imago wow " />
+                          <div className="text-overlay ">
+                            <div className="team-title">{team.title}</div>
+                              <div className="team-sub">{team.sub}</div>
+
+                            </div>
+                          </div>
+                        </div>     </div>
                     ))}
                   </div>
                 </div>

@@ -1,0 +1,72 @@
+{
+  "id": 1,
+  "title": {
+    "small": "education and technology",
+    "big": "Innovating in the traditional college application process."
+  },
+  "clientURLLink": "www.counsia.com",
+  "projectHeaderImage": "/img/portfolio/project2/bg.jpg",
+  "videoLink": "https://vimeo.com/127203262",
+  "clientURLName": "counsia.com",
+  "date": "6 August 2023",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Full Stack Web Dev",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "name": "Marketing",
+      "link": "#"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Development",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "name": "Software",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "name": "Digital Marketing",
+      "link": "#"
+    }
+  ],
+  "intro": {
+    "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part.",
+    "spmList": [
+      {
+        "id": 1,
+        "name": "Aenean sollicitudin"
+      },
+      {
+        "id": 2,
+        "name": "lorem quis bibendum auctor"
+      },
+      {
+        "id": 31,
+        "name": "nisi elit conseq uat ipsum"
+      },
+      {
+        "id": 4,
+        "name": "nec sagittis sem nibh id elit"
+      }
+    ]
+  },
+  "gallery": [
+    "/img/portfolio/project2/1.jpg",
+    "/img/portfolio/project2/2.jpg",
+    "/img/portfolio/project2/3.jpg",
+    "/img/portfolio/project2/5.jpg",
+    "/img/portfolio/project2/7.jpg"
+  ],
+  "description": {
+    "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part."
+  }
+}

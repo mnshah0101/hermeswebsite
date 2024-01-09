@@ -5,6 +5,7 @@ import Link from "next/link";
 import Split from "@/components/Common/Split";
 //= Scripts
 import { thumparallax, thumparallaxDown } from "@/common/thumparallax";
+
 //= Static Data
 import AboutUs3date from "@/data/sections/about-us3.json";
 
@@ -34,6 +35,7 @@ const AboutUs3 = () => {
                         src={AboutUs3date.image1}
                         alt=""
                       />
+                      
                     </div>
                     <div className="exp">
                       <h2 className="nmb-font">{AboutUs3date.exp.nmb}</h2>
