@@ -39,23 +39,23 @@
     }
   ],
   "intro": {
-    "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part.",
+    "content": "We are a client first software and automation agency. With this approach in mind, for Counsia, we built a full stack web application that provides support for high school students in the college admission process and employment for undergraduate students.",
     "spmList": [
       {
         "id": 1,
-        "name": "Aenean sollicitudin"
+        "name": "Full E-Commerce Integration"
       },
       {
         "id": 2,
-        "name": "lorem quis bibendum auctor"
+        "name": "Advanced CMS Dashboard"
       },
       {
         "id": 31,
-        "name": "nisi elit conseq uat ipsum"
+        "name": "Automated Email System"
       },
       {
         "id": 4,
-        "name": "nec sagittis sem nibh id elit"
+        "name": "Digital Marketing"
       }
     ]
   },
