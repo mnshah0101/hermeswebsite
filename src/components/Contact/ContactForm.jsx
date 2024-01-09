@@ -1,10 +1,23 @@
-import React from 'react';
-//= Components
+"use client";
+import {React, useRef, useState} from 'react';
 import Split from '@/components/Common/Split';
-//= Static Data
 import contentFormData from "@/data/contact-form.json";
+import emailjs from '@emailjs/browser';
 
 function ContactForm({ theme }) {
+    const [success, setSuccess] = useState(false);
+    const form = useRef();
+    const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_mqvtf26', 'template_hbwf6e9', form.current, 'LRUSLuZx-z2ywMm_U')
+      .then((result) => {
+          setSuccess(true);
+        }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <section className="contact section-padding">
       <div className="container">
@@ -13,8 +26,10 @@ function ContactForm({ theme }) {
             <div className="form md-mb50">
               <h4 className="fw-700 color-font mb-50">Get In Touch.</h4>
 
-              <form id="contact-form">
-                <div className="messages"></div>
+              <form id="contact-form" ref={form} onSubmit={sendEmail}>
+                <div className="messages my-4 text-success">
+                  {success && <span>Email sent successfully!</span>}
+                </div>
 
                 <div className="controls">
                   <div className="form-group">
@@ -47,7 +62,6 @@ function ContactForm({ theme }) {
                 <h5>
                   <a href="#0">{contentFormData.email}</a>
                 </h5>
-                <h5>{contentFormData.phone}</h5>
               </div>
               <Split>
                 <h3 className="wow" data-splitting>Visit Us.</h3>
@@ -60,17 +74,8 @@ function ContactForm({ theme }) {
                 </h6>
               </div>
               <div className="social mt-50">
-                <a href="#0" className="icon">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#0" className="icon">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#0" className="icon">
-                  <i className="fab fa-pinterest"></i>
-                </a>
-                <a href="#0" className="icon">
-                  <i className="fab fa-behance"></i>
+                <a href="https://www.linkedin.com/company/100859116/" className="icon">
+                  <i className="fab fa-linkedin"></i>
                 </a>
               </div>
             </div>

@@ -2,25 +2,25 @@
     {
         "id": 1,
         "icon": "pe-7s-paint-bucket",
-        "title": "Graphic Design",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "title": "Full Stack Web Development",
+        "content": "Your website is your first point of sale. Lets make it look good. HERMES uses the latest technologies to create a stunning, secure, and functional website."
     },
     {
         "id": 2,
         "icon": "pe-7s-phone",
-        "title": "Web & Mobile Design",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
+        "title": "Custom Software Development",
+        "content": "Let us create a custom software solution for your business that meets your needs. We will work with you to create a solution that is both efficient and cost effective."
     },
     {
         "id": 3,
         "icon": "pe-7s-display1",
-        "title": "Social Media Marketing",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
+        "title": "AI Assisted Data Analysis and Visualization",
+        "content": "We can help you make sense of your data. We will work with you to create software that will help you visualize and analyze your data, as well as give AI assisted recommendations."
     },
     {
         "id": 4,
         "icon": "pe-7s-diskette",
-        "title": "Document Legal Policy",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "title": "Autonomous Agents",
+        "content": "We can help you create autonomous agents that can help you automate your business processes. Examples include AI assisted chatbots and AI processes that fill out annoying paperwork for you."
     }
 ]

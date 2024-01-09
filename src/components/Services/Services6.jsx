@@ -16,7 +16,7 @@ function Services6() {
               We provide all equipment and services, etc and ensure a safe and
               secure project site.
             </p>
-            <Link className="custom-font more main-color" href="/about/about-dark">
+            <Link className="custom-font more main-color" href="/about">
               Read More
             </Link>
           </div>
@@ -31,7 +31,7 @@ function Services6() {
               We provide all equipment and services, etc and ensure a safe and
               secure project site.
             </p>
-            <Link className="custom-font more main-color" href="/about/about-dark">
+            <Link className="custom-font more main-color" href="/about">
               Read More
             </Link>
           </div>
@@ -46,7 +46,7 @@ function Services6() {
               We provide all equipment and services, etc and ensure a safe and
               secure project site.
             </p>
-            <Link className="custom-font more main-color" href="/about/about-dark">
+            <Link className="custom-font more main-color" href="/about">
               Read More
             </Link>
           </div>
@@ -61,7 +61,7 @@ function Services6() {
               We provide all equipment and services, etc and ensure a safe and
               secure project site.
             </p>
-            <Link className="custom-font more main-color" href="/about/about-dark">
+            <Link className="custom-font more main-color" href="/about">
               Read More
             </Link>
           </div>
@@ -76,7 +76,7 @@ function Services6() {
               We provide all equipment and services, etc and ensure a safe and
               secure project site.
             </p>
-            <Link className="custom-font more main-color" href="/about/about-dark">
+            <Link className="custom-font more main-color" href="/about">
               Read More
             </Link>
           </div>

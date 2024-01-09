@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Anurati";
+  /*a name to be used later*/
+  src: url("/fonts/Anurati-Regular.otf");
+  /*URL to font*/
+}
+
+.load_text {
+  font-family: "Anurati";
+  letter-spacing: 0.5rem;
+  font-size: 1.5rem;
+  /*URL to font*/
+}

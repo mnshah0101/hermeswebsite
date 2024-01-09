@@ -27,7 +27,7 @@ function Header2() {
                 We help our clients succeed by creating brand identities,
                 digital experiences, and print materials.
               </p>
-              <Link href={`/about/about-dark`} className="butn bord curve mt-30">
+              <Link href={`/about`} className="butn bord curve mt-30">
                 <span>About Us</span>
               </Link>
             </div>

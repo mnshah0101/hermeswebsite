@@ -8,8 +8,8 @@ const Header4 = ({ sliderRef }) => {
           <div className="col-lg-10">
             <div className="cont text-center">
               <h1>
-                <span className="color-font">Creativity</span> is the process of
-                having <span className="color-font">original ideas</span>.
+                <span className="color-font">Custom Automation</span> for your{" "}
+                 <span className="color-font">business</span>.
               </h1>
             </div>
           </div>

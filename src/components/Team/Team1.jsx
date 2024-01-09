@@ -27,11 +27,10 @@ const Team = () => {
                 <span></span>
               </div>
               <h3 className="co-tit mb-15">
-                We help to create visual strategies.
+                We help your business.
               </h3>
               <p>
-                We are Vie. We create award-winning websites, remarkable brands
-                and cutting-edge apps.Nullam imperdie.
+                We are Hermes, a group of talented university students geared towards helping your small business with effective software solutions.
               </p>
               <div className="skills-box mt-40">
                 {teamsDate.skills.map((skill) => (

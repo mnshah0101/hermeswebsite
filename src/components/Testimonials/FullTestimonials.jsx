@@ -60,87 +60,74 @@ function FullTestimonials({ withIMG, withCOLOR, noPadding, classText, showHead }
         <div className="row wow fadeInUp" data-wow-delay=".5s">
           <div className="col-lg-12">
             <Swiper {...swiperOptions} className="slic-item" data-wow-delay=".5s">
-              <SwiperSlide className="item">
+              <SwiperSlide className="item col-10 col-md-4">
                 <div className="info valign">
                   <div className="cont">
                     <div className="author">
                       <div className="img">
-                        <img src="/img/clients/1.jpg" alt="" />
+                        <img src="/img/clients/founders/beneshsquare.png" alt="" />
                       </div>
-                      <h6 className="author-name color-font">Alex Regelman</h6>
-                      <span className="author-details"> Co-founder, Colabrio </span>
+                      <h6 className="author-name color-font">Dickson Benesh</h6>
+                      <span className="author-details"> Founder, RAI</span>
                     </div>
                   </div>
                 </div>
                 <p>
-                  I would highly recommend Vie Digital. I worked with the team on
-                  an animation for our ‘Click &amp; Collect’ service.
+                  I would highly recommend working with Hermes Group. I worked with the team on a new frontend for our company website.
                 </p>
               </SwiperSlide>
-              <SwiperSlide className="item">
+              <SwiperSlide className="item col-10 col-md-4">
                 <div className="info valign">
                   <div className="cont">
                     <div className="author">
                       <div className="img">
-                        <img src="/img/clients/1.jpg" alt="" />
+                        <img src="/img/clients/founders/jeff_adai.jpeg" alt="" />
                       </div>
-                      <h6 className="author-name color-font">Alex Regelman</h6>
-                      <span className="author-details"> Co-founder, Colabrio </span>
+                      <h6 className="author-name color-font">Jeffrey Addai</h6>
+                      <span className="author-details"> Co-founder, OPSM </span>
                     </div>
                   </div>
                 </div>
                 <p>
-                  I would highly recommend Vie Digital. I worked with the team on
-                  an animation for our ‘Click &amp; Collect’ service.
+                  Hermes has been supporting our company's website and internal software for the past 2 years and I cannot recommend them enough.
                 </p>
               </SwiperSlide>
-              <SwiperSlide className="item">
+              <SwiperSlide className="item col-10 col-md-4">
                 <div className="info valign">
                   <div className="cont">
                     <div className="author">
                       <div className="img">
-                        <img src="/img/clients/1.jpg" alt="" />
+                        <img src="/img/clients/founders/carmen_rodriguez.jpeg" alt="" />
                       </div>
-                      <h6 className="author-name color-font">Alex Regelman</h6>
-                      <span className="author-details"> Co-founder, Colabrio </span>
+                      <h6 className="author-name color-font">Carmen Rodriguez</h6>
+                      <span className="author-details"> President, FSVA </span>
                     </div>
                   </div>
                 </div>
                 <p>
-                  I would highly recommend Vie Digital. I worked with the team on
-                  an animation for our ‘Click &amp; Collect’ service.
+                  The team was super helpful and responsive in helping us create a new site and file storage system.
                 </p>
               </SwiperSlide>
-              <SwiperSlide className="item">
+              <SwiperSlide className="item col-10 col-md-4">
                 <div className="info valign">
                   <div className="cont">
                     <div className="author">
                       <div className="img">
-                        <img src="/img/clients/1.jpg" alt="" />
+                        <img src="/img/clients/founders/ronit_jain.jpeg" alt="" />
                       </div>
-                      <h6 className="author-name color-font">Alex Regelman</h6>
-                      <span className="author-details"> Co-founder, Colabrio </span>
+                      <h6 className="author-name color-font">Ronit Jain</h6>
+                      <span className="author-details"> Co-founder, Counsia </span>
                     </div>
                   </div>
                 </div>
                 <p>
-                  I would highly recommend Vie Digital. I worked with the team on
-                  an animation for our ‘Click &amp; Collect’ service.
+                  They set up a full-stack application for our company and handled marketing and SEO for our website.
                 </p>
               </SwiperSlide>
             </Swiper>
           </div>
         </div>
-        <div className="arrows">
-          <div className="container">
-            <div className="next cursor-pointer">
-              <span className="pe-7s-angle-right"></span>
-            </div>
-            <div className="prev cursor-pointer">
-              <span className="pe-7s-angle-left"></span>
-            </div>
-          </div>
-        </div>
+       
       </div>
     </section>
   )

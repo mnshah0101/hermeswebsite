@@ -99,7 +99,7 @@ const NavbarMobileApp = ({ lr, nr, theme }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/contact/contact-dark">
+              <Link className="nav-link" href="/contact">
                 Contact
               </Link>
             </li>

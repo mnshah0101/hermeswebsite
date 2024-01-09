@@ -30,7 +30,7 @@ const AboutUs6 = () => {
                 ipsum ultes, nec condimentum ipsum consequat. Mauris vitae
                 consequat nibh, vitae interdum sit amet bibendum nisl.
               </p>
-              <Link className="butn bord mt-30" href={`/about/about-dark`}>
+              <Link className="butn bord mt-30" href={`/about`}>
                 <span>About Us</span>
               </Link>
             </div>

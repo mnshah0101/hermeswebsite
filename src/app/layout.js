@@ -4,6 +4,7 @@ import "@/styles/preloader.css";
 import "@/styles/modal-video.css";
 import "swiper/css/bundle";
 import "react-circular-progressbar/dist/styles.css";
+import Script from "next/script";
 
 
 export const metadata = {
@@ -11,8 +12,8 @@ export const metadata = {
   description: 'Software Development Company Focusing on Generative AI, Web Development, and Business Consultancy',
   keywords: ['HTML5', 'Template', 'Vie', 'Multi-Purpose', 'themeforest'],
   icons: {
-    icon: "/assets/imgs/favicon.ico",
-    shortcut: "/assets/imgs/favicon.ico"
+    icon: "/img/logos/white_hermes_h.png",
+    shortcut: "/img/logos/white_hermes_h.png"
   },
 }
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>{children}</body>
+       
     </html>
   )
 }

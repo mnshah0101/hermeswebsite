@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "title": { "first": "Midnight", "second": "Snack" },
-    "image": "/img/portfolio/full/1.jpg",
+    "title": { "first": "Counsia", "second": "Web App + Digital Marketing" },
+    "image": "/img/portfolio/counsia.jpeg",
     "sub": "Design"
   },
   {
     "id": 2,
-    "title": { "first": "Fisherman", "second": "Portrait" },
-    "image": "/img/portfolio/full/2.jpg",
+    "title": { "first": "OPSMPro", "second": "Web App + Digital Marketing" },
+    "image": "/img/portfolio/opsmpro.jpeg",
     "sub": "Design"
   },
   {
     "id": 3,
-    "title": { "first": "Tribos", "second": "Urbanas" },
-    "image": "/img/portfolio/full/3.jpg",
+    "title": { "first": "FSVA", "second": "Web App + File Directory" },
+    "image": "/img/portfolio/fsva.jpeg",
     "sub": "Design"
   },
   {
     "id": 4,
-    "title": { "first": "Monsoon", "second": "in the city" },
-    "image": "/img/portfolio/full/3.jpg",
+    "title": { "first": "OPSM Soccer", "second": "Web App + Digital Marketing" },
+    "image": "/img/portfolio/opsmsoccer.jpeg",
     "sub": "Design"
   }
 ]

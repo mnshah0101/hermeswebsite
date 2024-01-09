@@ -14,12 +14,14 @@ import Blogs from '@/components/Blogs/Blogs4';
 import CallToAction from '@/components/Others/CallToAction';
 import Footer from '@/components/Common/Footer';
 import LoadingScreen from "@/components/Common/Loader";
+import Cursor from "@/components/Common/Cursor";
+import ProgressScroll from "@/components/Common/ProgressScroll";
 
 export const metadata = {
-  title: 'HERMES Group',
+  title: 'HERMESGroup | Software for Your Business',
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
+    icon: "/img/hermesicon.png",
+    shortcut: "/img/hermesicon.png",
     other: generateStylesheetObject([
       'https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap',
       'https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap',
@@ -33,13 +35,17 @@ export default function LandingPreview() {
   return (
     <>
     <LoadingScreen />
+          <Cursor />
+                <ProgressScroll />
+
+
       <Navbar />
       <Header />
       <AboutUs />
       <Works />
       <Services />
       <MinimalArea2 />
-      <FullTestimonials classText="pb-0" />
+      <FullTestimonials classText="pb-0" showHead={true} />
       <Team />
       <Blogs />
       <CallToAction />

@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 //= Scripts
 import initFullNavbarMenu from "@/common/initFullNavbarMenu";
+import "@/styles/navbar.css";
 
 function NavbarFullMenu({ theme }) {
   useEffect(() => {
@@ -13,12 +14,12 @@ function NavbarFullMenu({ theme }) {
       <div id="navi" className={`topnav ${theme ? (theme === 'light' ? 'light' : '') : ''}`}>
         <div className="container-fluid">
           <div className="logo">
-            <a href="#0">
+            <a href="/">
               {
                 theme === 'light' ?
-                  <img src="/img/logo-dark.png" alt="logo" />
+              <span className="logo_text light_logo">HERMES</span>
                   :
-                  <img src="/img/logo-light.png" alt="logo" />
+              <span className="logo_text">HERMES</span>
               }
             </a>
           </div>
@@ -118,123 +119,23 @@ function NavbarFullMenu({ theme }) {
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <a className="link" href="/about/about-dark">
+                      <a className="link" href="/about">
                         <span className="nm">02.</span>About Us
                       </a>
                     </div>
                   </li>
-                  <li>
+                <li>
                     <div className="o-hidden">
-                      <span className="link dmenu">
-                        <span className="nm">03.</span>Works
-                        <i className="fas fa-angle-right"></i>
-                      </span>
-                    </div>
-                    <div className="sub-menu">
-                      <ul>
-                        <li>
-                          <div className="o-hidden">
-                            <span className="sub-link back">
-                              <i className="pe-7s-angle-left"></i> Go Back
-                            </span>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <a className="sub-link" href="/showcase/showcase-dark">
-                              <span className="nm">01.</span>ShowCase Parallax
-                            </a>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <a className="sub-link" href="/showcase3/showcase3-dark">
-                              <span className="nm">02.</span>ShowCase Carousel
-                            </a>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <a className="sub-link" href="/showcase2/showcase2-dark">
-                              <span className="nm">03.</span>ShowCase Circle
-                            </a>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <a className="sub-link" href="/works/works-dark">
-                              <span className="nm">04.</span>Portfolio Masonry
-                            </a>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <a className="sub-link" href="/works2/works2-dark">
-                              <span className="nm">05.</span>Portfolio Filtering
-                            </a>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <a className="sub-link" href="/works3/works3-dark">
-                              <span className="nm">06.</span>Portfolio Gallery
-                            </a>
-                          </div>
-                        </li>
-                      </ul>
+                      <a className="link" href="/works">
+                        <span className="nm">03.</span>Portfolio
+                      </a>
                     </div>
                   </li>
+                 
                   <li>
                     <div className="o-hidden">
-                      <span className="link dmenu">
-                        <span className="nm">04.</span>Blogs
-                        <i className="fas fa-angle-right"></i>
-                      </span>
-                    </div>
-                    <div className="sub-menu">
-                      <ul>
-                        <li>
-                          <div className="o-hidden">
-                            <span className="sub-link back">
-                              <i className="pe-7s-angle-left"></i> Go Back
-                            </span>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <a className="sub-link" href="/blog/blog-dark">
-                              <span className="nm">01.</span>Blog Standerd
-                            </a>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <a className="sub-link" href="/blog-list/blog-list-dark">
-                              <span className="nm">02.</span>Blog List
-                            </a>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <a className="sub-link" href="/blog-grid/blog-grid-dark">
-                              <span className="nm">03.</span>Blog Grid
-                            </a>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <a className="sub-link" href="/blog-details/blog-details-dark">
-                              <span className="nm">04.</span>Blog Details
-                            </a>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="o-hidden">
-                      <a className="link" href="/contact/contact-dark">
-                        <span className="nm">05.</span>Contact
+                      <a className="link" href="/contact">
+                        <span className="nm">04.</span>Contact
                       </a>
                     </div>
                   </li>
@@ -243,18 +144,15 @@ function NavbarFullMenu({ theme }) {
             </div>
             <div className="col-lg-3 col-md-4">
               <div className="cont-info">
+               
                 <div className="item">
-                  <h6>Phone :</h6>
-                  <p>+03 762-2367-723</p>
-                </div>
-                <div className="item">
-                  <h6>Address :</h6>
-                  <p>541 Melville Ave, Palo Alto, CA 94301, ask@ohio.colabr.io</p>
+                  <h6>Location :</h6>
+                  <p>Richmond, Virginia</p>
                 </div>
                 <div className="item">
                   <h6>Email :</h6>
                   <p>
-                    <a href="#0">Vie_website@gmail.com</a>
+                    <a href="#0">hermesdevelopergroup@gmail.com</a>
                   </p>
                 </div>
               </div>

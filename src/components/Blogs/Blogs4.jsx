@@ -68,21 +68,21 @@ function Blogs4() {
                 <SwiperSlide className="SwiperSlide">
                   <div className="item wow fadeIn" data-wow-delay=".3s">
                     <div className="img">
-                      <img className="thumparallax" src="/img/blog/1.jpg" alt="" />
+                      <img className="thumparallax" src="/img/home/chatbot.jpeg" alt="" />
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="SwiperSlide">
                   <div className="item wow fadeIn" data-wow-delay=".3s">
                     <div className="img">
-                      <img className="thumparallax" src="/img/blog/2.jpg" alt="" />
+                      <img className="thumparallax" src="/img/home/fullstack.jpeg" alt="" />
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="SwiperSlide">
                   <div className="item wow fadeIn" data-wow-delay=".3s">
                     <div className="img">
-                      <img className="thumparallax" src="/img/blog/3.jpg" alt="" />
+                      <img className="thumparallax" src="/img/home/analytics.jpeg" alt="" />
                     </div>
                   </div>
                 </SwiperSlide>
@@ -98,23 +98,19 @@ function Blogs4() {
                       </div>
                       <div className="info">
                         <a href="#0">
-                          <i className="far fa-clock"></i>
-                          06 Aug 2023
+
                         </a>
-                        <a href="#0">by Alex Morgan</a>
                       </div>
                       <div className="title">
                         <h4>
                           <a href="#0">
-                            Create The Lifestyle You Really Desire This World
+                            Custom Chatbot Solutions
                           </a>
                         </h4>
                       </div>
                       <div className="text">
                         <p>
-                          Success is no accident. It is hard work, perseverance,
-                          learning, studying, sacrifice and most of all, love of
-                          what you are doing.
+                          Let us create customer support or informational chatbots to improve the customer support experience or drive sales.
                         </p>
                       </div>
                       <div className="more">
@@ -132,24 +128,18 @@ function Blogs4() {
                         <a href="#0">Trending</a>
                       </div>
                       <div className="info">
-                        <a href="#0">
-                          <i className="far fa-clock"></i>
-                          06 Aug 2023
-                        </a>
-                        <a href="#0">by Alex Morgan</a>
+                     
                       </div>
                       <div className="title">
                         <h4>
                           <a href="#0">
-                            List of The Best Investment Projects
+                            Full Stack Application Development
                           </a>
                         </h4>
                       </div>
                       <div className="text">
                         <p>
-                          Success is no accident. It is hard work, perseverance,
-                          learning, studying, sacrifice and most of all, love of
-                          what you are doing.
+                          We create device-agnostic web applications that fulfill customer needs. Whether its an online booking system or a web-based game, we can do it.
                         </p>
                       </div>
                       <div className="more">
@@ -167,22 +157,16 @@ function Blogs4() {
                         <a href="#0">Trending</a>
                       </div>
                       <div className="info">
-                        <a href="#0">
-                          <i className="far fa-clock"></i>
-                          06 Aug 2023
-                        </a>
-                        <a href="#0">by Alex Morgan</a>
+                       
                       </div>
                       <div className="title">
                         <h4>
-                          <a href="#0">World Best Business Website Company</a>
+                          <a href="#0">Data Analytics Software</a>
                         </h4>
                       </div>
                       <div className="text">
                         <p>
-                          Success is no accident. It is hard work, perseverance,
-                          learning, studying, sacrifice and most of all, love of
-                          what you are doing.
+                          Let AI do the heavy lifting for you. We can create data analytics software to help you make better business decisions.
                         </p>
                       </div>
                       <div className="more">

@@ -6,15 +6,21 @@ import { handleDropdown, handleMobileDropdown } from "@/common/navbar";
 //= Static Data
 import appData from "@/data/app.json";
 
+import "@/styles/navbar.css";
+
 const Navbar = ({ lr, theme }) => {
   const navbar = useRef();
 
   function handleScroll() {
+    try{
     if (window.scrollY > 300) {
       navbar.current.classList.add("nav-scroll");
     } else {
       navbar.current.classList.remove("nav-scroll");
     }
+  }catch(e){
+    ;
+  }
   }
 
   useEffect(() => {
@@ -29,12 +35,12 @@ const Navbar = ({ lr, theme }) => {
         <Link className="logo" href="/">
           {theme ? (
             theme === "light" ? (
-              <img ref={lr} src={appData.darkLogo} alt="logo" />
+              <span className="logo_text light_logo">HERMES</span>
             ) : (
-              <img ref={lr} src={appData.lightLogo} alt="logo" />
+              <span className="logo_text">HERMES</span>
             )
           ) : (
-            <img ref={lr} src={appData.lightLogo} alt="logo" />
+              <span className="logo_text">HERMES</span>
           )}
         </Link>
 
@@ -55,106 +61,24 @@ const Navbar = ({ lr, theme }) => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item dropdown" onClick={handleDropdown}>
-              <span
-                className="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
+            <li className="nav-item">
+              <a className="nav-link" href={`/`}>
                 Home
-              </span>
-              <div className="dropdown-menu">
-                <a className="dropdown-item" href={`/homepage/home1-dark`}>
-                  Main Home
-                </a>
-                <a className="dropdown-item" href={`/homepage/home2-dark`}>
-                  Creative Agency
-                </a>
-                <a className="dropdown-item" href={`/homepage/home5-dark`}>
-                  Digital Agency
-                </a>
-                <a className="dropdown-item" href={`/homepage/home4-dark`}>
-                  Business One Page
-                </a>
-                <a className="dropdown-item" href={`/homepage/home3-dark`}>
-                  Corporate Business
-                </a>
-                <a className="dropdown-item" href={`/homepage/home6-dark`}>
-                  Modern Agency
-                </a>
-                <a className="dropdown-item" href={`/homepage/home7-dark`}>
-                  Freelancer
-                </a>
-                <a className="dropdown-item" href={`/homepage/home8-dark`}>
-                  Architecture
-                </a>
-              </div>
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href={`/about/about-dark`}>
+              <a className="nav-link" href={`/about`}>
                 About
               </a>
             </li>
-            <li className="nav-item dropdown" onClick={handleDropdown}>
-              <span
-                className="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Works
-              </span>
-              <div className="dropdown-menu">
-                <a className="dropdown-item" href={`/showcase/showcase-dark`}>
-                  Showcase Parallax
-                </a>
-                <a className="dropdown-item" href={`/showcase4/showcase4-dark`}>
-                  Showcase Carousel
-                </a>
-                <a className="dropdown-item" href={`/showcase3/showcase3-dark`}>
-                  Showcase Circle
-                </a>
-                <a className="dropdown-item" href={`/works/works-dark`}>
-                  Portfolio Masonry
-                </a>
-                <a className="dropdown-item" href={`/works2/works2-dark`}>
-                  Portfolio Filtering
-                </a>
-                <a className="dropdown-item" href={`/works3/works3-dark`}>
-                  Portfolio Gallery
-                </a>
-              </div>
+              <li className="nav-item">
+              <a className="nav-link" href={`/works`}>
+                Portfolio
+              </a>
             </li>
-            <li className="nav-item dropdown" onClick={handleDropdown}>
-              <span
-                className="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Blog
-              </span>
-              <div className="dropdown-menu">
-                <a className="dropdown-item" href={`/blog/blog-dark`}>
-                  Blog Standerd
-                </a>
-                <a className="dropdown-item" href={`/blog-list/blog-list-dark`}>
-                  Blog List
-                </a>
-                <a className="dropdown-item" href={`/blog-grid/blog-grid-dark`}>
-                  Blog Grid
-                </a>
-                <a className="dropdown-item" href={`/blog-details/blog-details-dark`}>
-                  Blog Details
-                </a>
-              </div>
-            </li>
+            
             <li className="nav-item">
-              <a href={`/contact/contact-dark`} className="nav-link">
+              <a href={`/contact`} className="nav-link">
                 Contact
               </a>
             </li>

@@ -43,7 +43,7 @@ function ShowcaseFullscreen() {
           {
             showcasse1Data.map(slide => (
               <SwiperSlide key={slide.id} className="swiper-slide">
-                <div className="bg-img valign" style={{ backgroundImage: `url(${slide.image})` }} data-overlay-dark="4">
+                <div className="bg-img valign" style={{ backgroundImage: `url(${slide.image})` }} data-overlay-dark="6">
                   <div className="container">
                     <div className="row">
                       <div className="col-lg-12">
@@ -53,7 +53,7 @@ function ShowcaseFullscreen() {
                               <div className="stroke" data-swiper-parallax="-2000">
                                 {slide.title.first}
                               </div>
-                              <span data-swiper-parallax="-5000">
+                              <span data-swiper-parallax="-5000" className='h4'>
                                 {slide.title.second}
                               </span>
                             </Link>

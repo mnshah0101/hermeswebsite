@@ -16,10 +16,10 @@ function Services3() {
           <div className="col-lg-8 col-md-10">
             <div className="sec-head">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Best Services
+                What We Do
               </h6>
               <h3 className="wow color-font">
-                We help to create strategies, design &amp; development.
+                We help to create next generation software for you.
               </h3>
             </div>
           </div>
@@ -30,12 +30,11 @@ function Services3() {
               <span className="icon">
                 <i className="ion-ios-monitor"></i>
               </span>
-              <h5>Interface Design</h5>
+              <h5>Business Tools</h5>
               <p>
-                Implementation and rollout of new network infrastructure,
-                including consolidation.
+Upgrade your efficiency with our custom business tools designed to streamline operations and maximize productivity.
               </p>
-              <Link href="/about/about-dark" className="more-stroke">
+              <Link href="/about" className="more-stroke">
                 <span></span>
               </Link>
             </div>
@@ -45,12 +44,11 @@ function Services3() {
               <span className="icon">
                 <i className="ion-ios-bolt-outline"></i>
               </span>
-              <h5>Creative Always</h5>
+              <h5>Automation</h5>
               <p>
-                Implementation and rollout of new network infrastructure,
-                including consolidation.
+                Streamline workflow with our AI-driven automation tools, eliminating repetitive tasks and focusing resources on growth.
               </p>
-              <Link href="/about/about-dark" className="more-stroke">
+              <Link href="/about" className="more-stroke">
                 <span></span>
               </Link>
             </div>
@@ -60,12 +58,11 @@ function Services3() {
               <span className="icon">
                 <i className="ion-cube"></i>
               </span>
-              <h5>Real-time Editing</h5>
+              <h5>Real Strategies</h5>
               <p>
-                Implementation and rollout of new network infrastructure,
-                including consolidation.
+                More than just AI tools, we assist in creating result-driven strategies aligned with your business objectives.
               </p>
-              <Link href="/about/about-dark" className="more-stroke">
+              <Link href="/about" className="more-stroke">
                 <span></span>
               </Link>
             </div>
@@ -75,12 +72,11 @@ function Services3() {
               <span className="icon">
                 <i className="ion-ios-color-wand"></i>
               </span>
-              <h5>Art Concept</h5>
+              <h5>User Experience</h5>
               <p>
-                Implementation and rollout of new network infrastructure,
-                including consolidation.
+                 Prioritizing usage simplicity alongside effectiveness, our tools foster a memorable user experience, driving customer retention.
               </p>
-              <Link href="/about/about-dark" className="more-stroke">
+              <Link href="/about" className="more-stroke">
                 <span></span>
               </Link>
             </div>

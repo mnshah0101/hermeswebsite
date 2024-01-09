@@ -8,8 +8,8 @@ import ProgressScroll from "@/components/Common/ProgressScroll";
 export const metadata = {
   title: 'Vie',
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
+    icon: "/img/hermesicon.png",
+    shortcut: "/img/hermesicon.png",
     other: generateStylesheetObject([
       'https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap',
       'https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap',

@@ -22,26 +22,26 @@ function MinimalArea1() {
             <div className="content pt-0">
               <h4 className="wow color-font">About us.</h4>
               <p className="wow txt" data-splitting>
-                Our creative Ad agency is ranked among the finest in the US. We
-                cultivate smart ideas for start-ups and seasoned players.
+               At the Hermes Group, with knowledge as our mighty wand and technology as our winged sandals, we strive to traverse the vast potential of AI and provide creative, intelligent solutions to multifaceted business problems. 
+
               </p>
               <ul className="feat">
                 <li className="wow fadeInUp" data-wow-delay=".2s">
-                  <h6><span>1</span> Our Mission</h6>
+                  <h6><span>1</span> How We Work</h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
+                    We work indvidually with each client to understand their business needs.
                   </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".4s">
                   <h6><span>2</span> Our Goals</h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
+                    We want to uncover the hidden potential of AI and use it to solve real-world problems.
                   </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".6s">
                   <h6><span>3</span> Why Us?</h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
+                    Although we are highly skilled, we are constantly learning and innovating.
                   </p>
                 </li>
               </ul>

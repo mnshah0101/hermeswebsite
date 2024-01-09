@@ -49,7 +49,7 @@ function Works3() {
             <div className="sec-head">
               <h6 className="wow fadeIn" data-wow-delay=".5s">Portfolio</h6>
               <h3 className="wow color-font">
-                Our Recent Web Design &amp; <br /> Some Past Projects.
+                Our Recent Projects 
               </h3>
             </div>
           </div>
@@ -60,23 +60,24 @@ function Works3() {
           <div className="col-lg-12 no-padding">
             <div className="swiper-container">
               <Swiper className="swiper-wrapper" {...swiperOptions}>
+                
                 <SwiperSlide className="swiper-slide">
                   <div className="content">
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
-                        <img src="/img/portfolio/2.jpg" alt="" />
+                        <img src="/img/home/opsm_image.png" alt="" />
                       </span>
                     </div>
                     <div className="cont">
                       <h6>
-                        <Link href="/project-details2/project-details2-dark">
-                          art &amp; illustration
+                        <Link href="https://www.opsmpro.com">
+                          OPSMPro
                         </Link>
                       </h6>
                       <h4>
-                        <Link href="/project-details2/project-details2-dark">
-                          Inspiring new space
+                        <Link href="https://www.opsmpro.com">
+                          Changing the face of North American Soccer.
                         </Link>
                       </h4>
                     </div>
@@ -87,18 +88,18 @@ function Works3() {
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
-                        <img src="/img/portfolio/1.jpg" alt="" />
+                        <img src="/img/home/fsva_image.png" alt="" />
                       </span>
                     </div>
                     <div className="cont">
                       <h6>
-                        <Link href="/project-details2/project-details2-dark">
-                          art &amp; illustration
+                        <Link href="https://www.facultysenateofvirginia.org">
+                          Faculty Senate of Virginia
                         </Link>
                       </h6>
                       <h4>
-                        <Link href="/project-details2/project-details2-dark">
-                          Inspiring new space
+                        <Link href="https://www.facultysenateofvirginia.org">
+                          The largest college faculty organization in Virginia.
                         </Link>
                       </h4>
                     </div>
@@ -109,18 +110,18 @@ function Works3() {
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
-                        <img src="/img/portfolio/3.jpg" alt="" />
+                        <img src="/img/home/counsia_image.png" alt="" />
                       </span>
                     </div>
                     <div className="cont">
                       <h6>
-                        <Link href="/project-details2/project-details2-dark">
-                          art &amp; illustration
+                        <Link href="https://www.counsia.com">
+                          Counsia
                         </Link>
                       </h6>
                       <h4>
-                        <Link href="/project-details2/project-details2-dark">
-                          Inspiring new space
+                        <Link href="https://www.counsia.com">
+                          Innovating traditional college counseling.
                         </Link>
                       </h4>
                     </div>
@@ -131,67 +132,24 @@ function Works3() {
                     <div className="img">
                       <span className="imgio">
                         <div className="wow cimgio" data-delay="500"></div>
-                        <img src="/img/portfolio/4.jpg" alt="" />
+                        <img src="/img/home/rai_image.png" alt="" />
                       </span>
                     </div>
                     <div className="cont">
                       <h6>
-                        <Link href="/project-details2/project-details2-dark">
-                          art &amp; illustration
+                        <Link href="https://www.rvarai.com">
+                          Richmond Academic Institute
                         </Link>
                       </h6>
                       <h4>
-                        <Link href="/project-details2/project-details2-dark">
-                          Inspiring new space
+                        <Link href="https://www.rvarai.com">
+                          Richmond's premier tutoring and test prep center.
                         </Link>
                       </h4>
                     </div>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div className="content">
-                    <div className="img">
-                      <span className="imgio">
-                        <div className="wow cimgio" data-delay="500"></div>
-                        <img src="/img/portfolio/5.jpg" alt="" />
-                      </span>
-                    </div>
-                    <div className="cont">
-                      <h6>
-                        <Link href="/project-details2/project-details2-dark">
-                          art &amp; illustration
-                        </Link>
-                      </h6>
-                      <h4>
-                        <Link href="/project-details2/project-details2-dark">
-                          Inspiring new space
-                        </Link>
-                      </h4>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div className="content">
-                    <div className="img">
-                      <span className="imgio">
-                        <div className="wow cimgio" data-delay="500"></div>
-                        <img src="/img/portfolio/6.jpg" alt="" />
-                      </span>
-                    </div>
-                    <div className="cont">
-                      <h6>
-                        <Link href="/project-details2/project-details2-dark">
-                          art &amp; illustration
-                        </Link>
-                      </h6>
-                      <h4>
-                        <Link href="/project-details2/project-details2-dark">
-                          Inspiring new space
-                        </Link>
-                      </h4>
-                    </div>
-                  </div>
-                </SwiperSlide>
+              
               </Swiper>
               <div className="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer">
                 <i className="ion-ios-arrow-right"></i>

@@ -1,15 +1,45 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
+    ],
+    "/(dark)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dark)/layout.js"
+    ],
+    "/(dark)/contact/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(dark)/contact/page.css",
+      "static/chunks/app/(dark)/contact/page.js"
+    ],
+    "/(dark)/about/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(dark)/about/page.css",
+      "static/chunks/app/(dark)/about/page.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
+    "/(dark)/blog-details/blog-details-dark/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(dark)/blog-details/blog-details-dark/page.css",
+      "static/chunks/app/(dark)/blog-details/blog-details-dark/page.js"
+    ],
+    "/(dark)/works/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(dark)/works/page.css",
+      "static/chunks/app/(dark)/works/page.js"
     ]
   }
 }
