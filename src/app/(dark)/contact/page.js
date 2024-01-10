@@ -4,7 +4,7 @@ import Navbar from '@/components/Common/Navbar';
 import ContactHeader from '@/components/Contact/ContactHeader';
 import ContactForm from '@/components/Contact/ContactForm';
 import Footer from '@/components/Common/Footer';
-
+import LoadingScreen from '@/components/Common/Loader';
 
 export const metadata = {
   title: 'HERMESGroup - Contact'
@@ -13,6 +13,8 @@ export const metadata = {
 export default function ContactPage() {
   return (
     <>
+        <LoadingScreen />
+
       <Navbar />
       <ContactHeader />
       <div className="main-content">

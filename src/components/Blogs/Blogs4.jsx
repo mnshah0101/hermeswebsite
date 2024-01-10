@@ -114,7 +114,7 @@ function Blogs4() {
                         </p>
                       </div>
                       <div className="more">
-                        <Link href="/blog-details/blog-details-dark">
+                        <Link href="/about">
                           Read More
                         </Link>
                       </div>
@@ -143,7 +143,7 @@ function Blogs4() {
                         </p>
                       </div>
                       <div className="more">
-                        <Link href="/blog-details/blog-details-dark">
+                        <Link href="/about">
                           Read More
                         </Link>
                       </div>
@@ -170,7 +170,7 @@ function Blogs4() {
                         </p>
                       </div>
                       <div className="more">
-                        <Link href="/blog-details/blog-details-dark">
+                        <Link href="/about">
                           Read More
                         </Link>
                       </div>

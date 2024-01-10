@@ -50,7 +50,7 @@ const Team = () => {
           <div className="col-lg-6 offset-lg-1">
             <div className="img-box">
               <div className="row">
-                <div className="col-sm-6 toright">
+                <div className="col-sm-6 toright my-3">
                   <div className="full-width">
                     {teamsDate.teams.slice(0, 2).map((team, index) => (
                       <div key={team.id}>
@@ -75,7 +75,7 @@ const Team = () => {
                     ))}
                   </div>
                 </div>
-                <div className="col-sm-6 toleft valign">
+                <div className="col-sm-6 toleft valign my-3">
                   <div className="full-width text-left">
                     {teamsDate.teams.slice(2, 4).map((team, index) => (
                       <div key={team.id}>

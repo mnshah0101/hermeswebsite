@@ -60,7 +60,7 @@ function ShowcaseFullscreen() {
                             <div className="bord"></div>
                           </h1>
                           <div className="discover">
-                            <Link href="/project-details2/project-details2-dark">
+                            <Link href={slide.link}>
                               <span>
                                 Explore <br /> More
                               </span>

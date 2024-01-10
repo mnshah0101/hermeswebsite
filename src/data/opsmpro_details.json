@@ -1,14 +1,14 @@
 {
   "id": 1,
   "title": {
-    "small": "education and technology",
-    "big": "Innovating in the traditional college application process."
+    "small": "sports and technology",
+    "big": "Pushing the boundaries of North American soccer"
   },
-  "clientURLLink": "www.counsia.com",
-  "projectHeaderImage": "/img/portfolio/counsia.jpeg",
+  "clientURLLink": "www.opsmpro.com",
+  "projectHeaderImage": "/img/portfolio/opsmpro.jpeg",
   "videoLink": "https://vimeo.com/127203262",
-  "clientURLName": "counsia.com",
-  "date": "6 August 2023",
+  "clientURLName": "opsmpro.com",
+  "date": "13 May 2021",
   "categories": [
     {
       "id": 1,
@@ -39,28 +39,28 @@
     }
   ],
   "intro": {
-    "content": "We are a client first software and automation agency. With this approach in mind, for Counsia, we built a full stack web application that provides support for high school students in the college admission process and employment for undergraduate students.",
+    "content": "HERMES maintains OPMSPro's online prescence, whether it be through their website, online blog, or social media platforms. This has led to 6-figures in sales in each of the past 3 years. ",
     "spmList": [
-      {
+       {
         "id": 1,
-        "name": "Full E-Commerce Integration"
+        "name": "Wordpress Website"
       },
       {
         "id": 2,
-        "name": "Advanced CMS Dashboard"
+        "name": "Full E-Commerce Integration"
       },
       {
-        "id": 31,
-        "name": "Automated Email System"
+        "id": 3,
+        "name": "Digital Marketing"
       },
       {
         "id": 4,
-        "name": "Digital Marketing"
+        "name": "Social Media Management"
       }
     ]
   },
   
   "description": {
-    "content": "For Counsia, we used NodeJS with a MongoDB database to build a full stack web application that provides support for high school students in the college admission process and employment for undergraduate students. The application is built with a custom CMS dashboard that allows the client to manage the entire application from a single dashboard. The application also has a full e-commerce integration that allows the client to sell their services and products online. We also built an automated email system that sends emails to users based on their actions on the application. We also provided digital marketing services for the client."
+    "content": "Today, OPSM is the benchmark football agency in North America. OPSM specializes in providing pathways for players to reach the next steps of their career and the resources necessary for soccer players to excel technically, tactically, physically and improve mentally."
   }
 }

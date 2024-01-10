@@ -9,6 +9,7 @@ import MinimalArea from '@/components/Others/MinimalArea1';
 import Clients from '@/components/Clients/Clients1';
 import CallToAction from '@/components/Others/CallToAction';
 import Footer from '@/components/Common/Footer';
+import LoadingScreen from '@/components/Common/Loader';
 
 export const metadata = {
   title: 'HERMESGroup - About HermesGroup'
@@ -17,6 +18,7 @@ export const metadata = {
 function AboutDark() {
   return (
     <>
+    <LoadingScreen />
       <Navbar />
       <PagesHeader imageLink="/img/slid/about.jpg">Our dedicated team of developers is bursting with talent, experience and passion for what we do.</PagesHeader>
       <AboutIntro />
