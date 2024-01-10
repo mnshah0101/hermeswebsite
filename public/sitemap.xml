@@ -1,40 +1,40 @@
  <!-- public/sitemap.xml -->
    <xml version="1.0" encoding="UTF-8">
-   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
      <url>
-       <loc>http://www.hermesgroup.dev/</loc>
+       <loc>https://www.hermesgroup.dev/</loc>
        <lastmod>2024-09-10</lastmod>
      </url>
      <url>
-       <loc>http://www.hermesgroup.dev/about</loc>
+       <loc>https://www.hermesgroup.dev/about</loc>
        <lastmod>2024-09-10</lastmod>
      </url>
      <url>
-       <loc>http://www.hermesgroup.dev/contact</loc>
+       <loc>https://www.hermesgroup.dev/contact</loc>
        <lastmod>2024-09-10</lastmod>
      </url>
      <url>
-       <loc>http://www.hermesgroup.dev/contact</loc>
+       <loc>https://www.hermesgroup.dev/contact</loc>
        <lastmod>2024-09-10</lastmod>
      </url>
      <url>
-       <loc>http://www.hermesgroup.dev/works</loc>
+       <loc>https://www.hermesgroup.dev/works</loc>
        <lastmod>2024-09-10</lastmod>
      </url>
      <url>
-       <loc>http://www.hermesgroup.dev/project-details/counsia</loc>
+       <loc>https://www.hermesgroup.dev/project-details/counsia</loc>
        <lastmod>2024-09-10</lastmod>
      </url>
      <url>
-       <loc>http://www.hermesgroup.dev/project-details/opsmpro</loc>
+       <loc>https://www.hermesgroup.dev/project-details/opsmpro</loc>
        <lastmod>2024-09-10</lastmod>
      </url>
      <url>
-       <loc>http://www.hermesgroup.dev/project-details/fsva</loc>
+       <loc>https://www.hermesgroup.dev/project-details/fsva</loc>
        <lastmod>2024-09-10</lastmod>
      </url>
      <url>
-       <loc>http://www.hermesgroup.dev/project-details/opsmsoccer</loc>
+       <loc>https://www.hermesgroup.dev/project-details/opsmsoccer</loc>
        <lastmod>2024-09-10</lastmod>
      </url>
    </urlset>
