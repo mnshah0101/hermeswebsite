@@ -12,8 +12,8 @@ export const metadata = {
   description: 'Software Development Company Focusing on Generative AI, Web Development, and Business Consultancy',
   keywords: ['HTML5', 'Template', 'Vie', 'Multi-Purpose', 'themeforest'],
   icons: {
-    icon: "/img/logos/white_hermes_h.png",
-    shortcut: "/img/logos/white_hermes_h.png"
+    icon: "/img/hermesicon.png",
+    shortcut: "/img/hermesicon.png"
   },
 }
 
