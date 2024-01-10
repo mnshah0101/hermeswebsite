@@ -17,6 +17,12 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(dark)/layout.js"
     ],
+    "/(dark)/about/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(dark)/about/page.css",
+      "static/chunks/app/(dark)/about/page.js"
+    ],
     "/(dark)/works/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -28,6 +34,18 @@
       "static/chunks/main-app.js",
       "static/css/app/(dark)/project-details/counsia/page.css",
       "static/chunks/app/(dark)/project-details/counsia/page.js"
+    ],
+    "/(dark)/project-details/fsva/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(dark)/project-details/fsva/page.css",
+      "static/chunks/app/(dark)/project-details/fsva/page.js"
+    ],
+    "/(dark)/project-details/opsmsoccer/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(dark)/project-details/opsmsoccer/page.css",
+      "static/chunks/app/(dark)/project-details/opsmsoccer/page.js"
     ]
   }
 }

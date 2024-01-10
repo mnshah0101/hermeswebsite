@@ -3,24 +3,31 @@
     "id": 1,
     "title": { "first": "Counsia", "second": "Web App + Digital Marketing" },
     "image": "/img/portfolio/counsia.jpeg",
-    "sub": "Design"
+    "sub": "Design",
+    "link": "/project-details/counsia"
   },
   {
     "id": 2,
     "title": { "first": "OPSMPro", "second": "Web App + Digital Marketing" },
     "image": "/img/portfolio/opsmpro.jpeg",
-    "sub": "Design"
+    "sub": "Design",
+        "link": "/project-details/opsmpro"
+
   },
   {
     "id": 3,
     "title": { "first": "FSVA", "second": "Web App + File Directory" },
     "image": "/img/portfolio/fsva.jpeg",
-    "sub": "Design"
+    "sub": "Design",
+        "link": "/project-details/fsva"
+
   },
   {
     "id": 4,
     "title": { "first": "OPSM Soccer", "second": "Web App + Digital Marketing" },
     "image": "/img/portfolio/opsmsoccer.jpeg",
-    "sub": "Design"
+    "sub": "Design",
+        "link": "/project-details/opsmsoccer"
+
   }
 ]

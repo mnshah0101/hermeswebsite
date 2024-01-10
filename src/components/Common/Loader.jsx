@@ -1,31 +1,24 @@
-'use client';
-import { useEffect } from 'react';
-import loadingPace from "@/common/loadingPace";
-import '@/styles/loading.css';
+"use client"
+import React, { useState, useEffect } from "react";
+import "@/styles/loading.css";
 
-function LoadingScreen() {
+
+
+export default function LoadingScreen() {
+  const [isLoading, setLoading] = useState(true);
+
   useEffect(() => {
-    var Pace = 'hi';
-    setTimeout(() => {
-      if (typeof Pace !== 'undefined') loadingPace();
-    }, 3000);
-  }
-  
-  );
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+
+    // Clean up the timer on unmount
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
-    <div className="hideX">
-      <div className="loading">
-        <span className = "load_text">H</span>
-        <span className = "load_text">e</span>
-        <span className = "load_text">r</span>
-        <span className = "load_text">m</span>
-        <span className = "load_text">e</span>
-        <span className = "load_text">s</span>
-      </div>
-      <div id="preloader"></div>
+    <div className={`fullscreen ${isLoading ? "visible" : "fade-out"}`}>
+      <p className="load_text">HERMES</p>
     </div>
   );
-};
-
-export default LoadingScreen;
+}
