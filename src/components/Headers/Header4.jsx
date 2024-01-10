@@ -11,8 +11,13 @@ const Header4 = ({ sliderRef }) => {
                 <span className="color-font">Custom Automation</span> for your{" "}
                  <span className="color-font">business</span>.
               </h1>
+               <a href="/contact" className="butn bord curve mt-30">
+                <span>Book Project</span>
+              </a>
             </div>
+           
           </div>
+          
         </div>
       </div>
 

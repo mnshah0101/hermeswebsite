@@ -12,52 +12,16 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/(dark)/works/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(dark)/works/page.css",
-      "static/chunks/app/(dark)/works/page.js"
-    ],
     "/(dark)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(dark)/layout.js"
-    ],
-    "/(dark)/project-details/fsva/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(dark)/project-details/fsva/page.css",
-      "static/chunks/app/(dark)/project-details/fsva/page.js"
     ],
     "/(dark)/contact/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/(dark)/contact/page.css",
       "static/chunks/app/(dark)/contact/page.js"
-    ],
-    "/(dark)/project-details/counsia/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(dark)/project-details/counsia/page.css",
-      "static/chunks/app/(dark)/project-details/counsia/page.js"
-    ],
-    "/(dark)/project-details/opsmpro/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(dark)/project-details/opsmpro/page.css",
-      "static/chunks/app/(dark)/project-details/opsmpro/page.js"
-    ],
-    "/(dark)/about/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(dark)/about/page.css",
-      "static/chunks/app/(dark)/about/page.js"
-    ],
-    "/(dark)/project-details/opsmsoccer/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(dark)/project-details/opsmsoccer/page.css",
-      "static/chunks/app/(dark)/project-details/opsmsoccer/page.js"
     ]
   }
 }
