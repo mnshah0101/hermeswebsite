@@ -17,6 +17,12 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(dark)/layout.js"
     ],
+    "/(dark)/project-details/opsmsoccer/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(dark)/project-details/opsmsoccer/page.css",
+      "static/chunks/app/(dark)/project-details/opsmsoccer/page.js"
+    ],
     "/(dark)/contact/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
