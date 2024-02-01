@@ -17,6 +17,12 @@
       "image": "/img/team/julianchaoul.jpeg",
       "title": "Julian Chaoul",
       "sub": "MechE @ VCU"
+    },
+    {
+      "id": 4,
+      "image": "/img/team/viswa.jpeg",
+      "title": "Viswa Subramaniam",
+      "sub": "Comm @ UVA"
     }
   ],
   "skills": [
