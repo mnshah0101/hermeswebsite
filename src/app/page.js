@@ -40,7 +40,6 @@ export default function LandingPreview() {
 
       <Navbar />
       <Header />
-      <AboutUs />
       <Works />
       <Services />
       <MinimalArea2 />

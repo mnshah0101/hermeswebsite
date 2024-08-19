@@ -8,8 +8,8 @@ const Header4 = ({ sliderRef }) => {
           <div className="col-lg-10">
             <div className="cont text-center">
               <h1>
-                <span className="color-font">Custom Automation</span> for your{" "}
-                 <span className="color-font">business</span>.
+                <span className="color-font">Generative AI</span> For Your{" "}
+                 <span className="color-font">Business</span>.
               </h1>
                <a href="/contact" className="butn bord curve mt-30">
                 <span>Book Project</span>

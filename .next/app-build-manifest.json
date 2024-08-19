@@ -11,6 +11,17 @@
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
+    ],
+    "/(dark)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dark)/layout.js"
+    ],
+    "/(dark)/contact/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(dark)/contact/page.css",
+      "static/chunks/app/(dark)/contact/page.js"
     ]
   }
 }

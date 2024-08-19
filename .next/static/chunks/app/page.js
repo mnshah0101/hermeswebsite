@@ -1934,7 +1934,7 @@ module.exports = JSON.parse('{"id":1,"image1":"/img/home/hermes_home_code.jpeg",
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
-module.exports = JSON.parse('{"teams":[{"id":1,"image":"/img/team/mokshshah.jpeg","title":"Moksh Shah","sub":"CS @ Georgia Tech"},{"id":2,"image":"/img/team/ronitjain.jpeg","title":"Ronit Jain","sub":"CS @ UC Berkeley"},{"id":3,"image":"/img/team/julianchaoul.jpeg","title":"Julian Chaoul","sub":"MechE @ VCU"},{"id":4,"image":"/img/team/viswa.jpeg","title":"Viswa Subramaniam","sub":"Comm @ UVA"}],"skills":[{"id":1,"text":"Full Stack Development","value":"100%"},{"id":2,"text":"Consulting","value":"100%"}]}');
+module.exports = JSON.parse('{"teams":[{"id":1,"image":"/img/team/mokshshah.jpeg","title":"Moksh Shah","sub":"CS @ Georgia Tech"},{"id":2,"image":"/img/team/ronitjain.jpeg","title":"Ronit Jain","sub":"CS @ UC Berkeley"},{"id":3,"image":"/img/team/julianchaoul.jpeg","title":"Julian Chaoul","sub":"MechE @ VCU"},{"id":4,"image":"/img/team/viswa.jpeg","title":"Viswa Subramanian","sub":"Finance + CS @ UVA"}],"skills":[{"id":1,"text":"Full Stack Development","value":"100%"},{"id":2,"text":"Consulting","value":"100%"}]}');
 
 /***/ })
 
